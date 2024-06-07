@@ -1,0 +1,339 @@
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Header styling */
+header {
+    height: 60px;
+    border: 1px solid navy;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    position: sticky;
+}
+
+.header-nav > ul {
+    display: flex;
+    list-style: none;
+}
+
+.header-nav > ul > li {
+    padding: 0 15px;
+}
+
+.header-nav > ul > li > a{
+    color: black;
+    font-weight: 500;
+    padding-bottom: 3px;
+}
+
+.header-nav > ul > li > a:hover {
+    border-bottom: 2px solid green;
+}
+
+.fa-bars {
+    display: none;
+}
+.fa-star {
+    color: yellow;
+
+}
+/* section 1 styling */
+.deal {
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 60px;
+    display: flex;   
+    background-image: url(../images/istockphoto-1447909995-1024x1024.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    font-weight: 900;
+    background-color: blue;
+    font-size: xx-large;
+ } 
+.shop {
+    background-image: url(../images/button.png);
+    position: absolute;
+    padding: 0 60px;
+    height: 50px;
+    justify-items: center;
+    color: black;
+    font-size: large;
+}
+.box1 {
+   border: 1px solid black;
+   border-radius: 10px;
+} 
+.box2 {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.box3 {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.box4 {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.box5 {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.box6 {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+    
+/* section 2 styling */
+.services {
+    display: flex;
+    text-align: center;
+    gap: 100px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.fa-solid fa-cart-shopping {
+    align-content: end;
+}
+/* .Products {
+    align-items: center;
+    padding: 50px 60px;
+} */
+.featured {
+    text-align: center;
+    padding: 10px;
+    font-size: x-large;
+}
+.pros {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    align-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    padding: 0 80px;
+    
+    
+}
+/* .price {
+    text-align: right;
+} */
+.pro {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 230px;
+    padding: 10px;
+    background-color: aliceblue;
+    box-shadow: 1px;
+}
+ 
+.sales {
+    background-image: url(../images/section5bg.jpg);
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 80px;
+    color: aliceblue;
+    /* justify-content: space-between; */
+
+}
+.repair2  {
+    color: red;
+    font-weight: 600;
+}
+.News {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    align-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 0 80px;
+}
+.repair {
+    text-align: center;
+    
+}
+.repairs {
+    /* position: relative; */
+    /* bottom: 10px; */
+    /* width: 100%; */
+    align-content: center;
+    justify-content: center;
+    /* text-align: center; */
+
+}
+.arrive1 {
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+.arrive2 {
+    text-align: center;
+}
+    
+.news {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 230px;
+    padding: 10px;
+    background-color: aliceblue;
+    box-shadow: 1px;
+
+}
+
+.Deals {
+    display: flex;
+    height: 35vh;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.ads1 {
+    background-image: url("../images/shopping2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+    /* height: 90%; */
+}
+.ads2 {
+    background-image: url("../images/shopping4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+
+}
+.promotion {
+    display: flex;
+    justify-content: space-around;
+    height: 35vh;
+    margin-bottom: 50px;
+    background-size: contain;
+    color: white;
+    font-size: x-large;
+}
+.promo1 {
+    background-image: url(../images/shopping3.jpg);
+    width: 350px;
+}
+.promo2{
+    background-image: url(../images/WhatsApp\ Image\ 2024-03-19\ at\ 16.57.10_da73355e.jpg);
+    width: 350px;
+}
+.promo3 {
+    background-image: url(../images/shopping.jpg);
+    width: 350px;
+}
+.tion {
+    color: red;
+}
+
+/* Newsletter section styling */
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: navy;
+    color: white;
+    padding: 50px 60px;
+}
+
+.newsletter > div > p {
+    color: rgb(179, 178, 178);
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.newsletter a {
+    color: rgb(240, 170, 39);
+    font-weight: 600;
+}
+
+.newsletter div {
+    width: 45%;
+}
+
+.newsletter form {
+    width: 100%;
+    display: flex;
+}
+.newsletter .subscribe-input {
+    width: 100%;
+    height: 50px;
+    outline: none;
+    padding-left: 10px;
+    border: none;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    margin: 0;
+    font-size: 14px;
+}
+
+.newsletter-btn {
+    height: 50px;
+    width: 120px;
+    background-color: rgb(36, 93, 16);
+    color:  white;
+    font-weight: 700;
+    border: none;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    cursor: pointer;
+}
+
+
+/* footer styling */
+
+footer {
+    padding: 20px 60px;
+}
+footer > .top-footer {
+    /* display: grid;
+    grid-template-columns:  repeat(4, 1fr);
+    column-gap: 70px; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer > .top-footer > div > p {
+    font-size: 13px;
+}
+
+.top-footer .fa-brands {
+    font-size: 18px;
+}
+
+footer h6 {
+    padding: 17px 0;
+    font-weight: 700;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer a {
+    font-size: 13px;
+    color: black;
+}
+
+footer > .bottom-footer > p {
+    text-align: center;
+    padding: 30px 0;
+}
